@@ -9,9 +9,9 @@ const baseUrl =
 
 const books_data = [];
 
-async function getBooks(url) {
+async function getBooks(mystery) {
   try {
-    const response = await axios.get(url);
+    const response = await axios.get(mystery);
 
     const $ = cheerio.load(response.data);
 
