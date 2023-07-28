@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 const url =
   'https://books.toscrape.com/catalogue/category/books/mystery_3/index.html';
 
-async function getGenre() {
+async function getGenre(url) {
   try {
     const response = await axios.get(url);
 
@@ -18,4 +18,4 @@ async function getGenre() {
   }
 }
 
-getGenre();
+getGenre(url);
