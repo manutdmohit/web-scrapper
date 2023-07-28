@@ -1,2 +1,3 @@
 # web-scrapper
-Web Scraping using Node.js.   Packages used:: Axios, Cheerio
+Web Scraping using Node.js.   
+Packages used:: Axios, Cheerio
